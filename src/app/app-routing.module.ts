@@ -1,13 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-// import { WelcomeComponent } from './welcome/welcome.component';
-// import { LoginComponent } from './components/login/login.component';
-// import { UserChartComponent } from './components/userchart/userchart.component';
-// import { SliceDetailsComponent } from './components/userchart/slice-details.component';
+import { AdmissionsComponent } from './components/admissions/admissions.component';
+import { ProgramsComponent } from './components/programs/programs.component';
+import { StaffComponent } from './components/staff/staff.component';
+import { TourComponent } from './components/tour/tour.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'admissions', component: AdmissionsComponent },
+  { path: 'programs', component: ProgramsComponent },
+  { path: 'staff', component: StaffComponent },
+  { path: 'tour', component: TourComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
