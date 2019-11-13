@@ -1,8 +1,16 @@
 @import '~normalize.css';
 
 * {
-  font-family: Helvetica;
+  //font-family: Helvetica;
 }
 
-html, body { height: 100%; }
+html, body {
+  font-family: 'Libre Franklin';
+  height: 100%;
+}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a {
+  color: black;
+  text-decoration: none;
+}

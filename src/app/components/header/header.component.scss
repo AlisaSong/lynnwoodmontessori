@@ -1,5 +1,17 @@
+a {
+  font-size: 38px;
+  padding: 0 10px;
+}
+
 .background-container {
   background-color: pink;
-  height: 50px;
+  height: 100px;
   width: 100%;
+  text-align: right;
+}
+
+.links {
+  top: 50%;
+  padding-top: 50px;
+  padding-right: 20px;
 }
