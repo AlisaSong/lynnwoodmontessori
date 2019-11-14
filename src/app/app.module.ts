@@ -10,6 +10,7 @@ import { TourComponent } from './components/tour/tour.component';
 import { AdmissionsComponent } from './components/admissions/admissions.component';
 import { ProgramsComponent } from './components/programs/programs.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
