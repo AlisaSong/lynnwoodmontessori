@@ -1,7 +1,16 @@
 img {
   width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: -2;
 }
 
 .content-container {
   background-color: #fff;
+}
+
+.image-container {
+  @media screen and (min-width: 992px) {
+    height: 60vh;
+  }
 }

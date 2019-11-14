@@ -12,13 +12,11 @@ fa-icon {
     }
 }
 
-header {
-  position: fixed;
-}
-
 .background-container {
   background-color: rgb(255, 249, 230);
   height: 100px;
+  position: sticky;
+  top: 0px;
 }
 
 .links {
