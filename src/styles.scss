@@ -16,8 +16,18 @@ a {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 32px;
   font-weight: normal;
+  padding-top: 15px;
+
+  @media screen and (min-width: 450px) {
+    font-size: 38px;
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: 850px) {
+    padding-top: 25px;
+  }
 }
 
 p {
