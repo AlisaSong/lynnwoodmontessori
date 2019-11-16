@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BrowserUtil } from 'src/app/utils/browser-util';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private browserUtil: BrowserUtil) { }
 
   ngOnInit() {
+    this.browserUtil.resetScroll();
   }
 
 }
