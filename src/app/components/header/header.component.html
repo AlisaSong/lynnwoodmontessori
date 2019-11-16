@@ -1,6 +1,21 @@
 <div class="background-container">
-  <fa-icon class="fa-2x" [icon]="faBars"></fa-icon>
-
+  <fa-icon class="fa-2x" (click)="onClickMenu()" [icon]="faBars"></fa-icon>
+  <div class='menu-hamburger-expanded' *ngIf="menuOpen">
+    <fa-icon (click)="onClickCloseMenu()" [icon]="faWindowClose"></fa-icon>
+    <h2>MENU OPEN</h2>
+    <div>
+      <ul>
+        <a [routerLink]="['/']"><li>About</li></a>
+        <a [routerLink]="['/admissions']"><li>Admissions</li></a>
+        <a [routerLink]="['/programs']"><li>Programs</li></a>
+        <a [routerLink]="['/staff']"><li>Staff</li></a>
+        <a [routerLink]="['/tour']"><li>Tour</li></a>
+      </ul>
+    </div>
+  </div>
+  <div class='content-overlay'
+  (click)="onClickCloseMenu()"
+  *ngIf="menuOpen"></div>
   <div class="links">
     <span>
       <a [routerLink]="['/']">About</a>

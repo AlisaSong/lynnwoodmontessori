@@ -30,7 +30,19 @@ h1 {
   }
 }
 
+li {
+  list-style-type: none;
+}
+
 p {
   font-weight: normal;
   font-size: 18px;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ z-index: -1;
 }

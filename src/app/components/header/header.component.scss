@@ -30,3 +30,31 @@ fa-icon {
     padding-right: 20px;
   }
 }
+
+.menu-hamburger {
+  margin: auto 10px;
+
+  @media screen and (min-width: 992px) {
+    display: none;
+  }
+}
+
+.menu-hamburger-expanded {
+  color: #fff;
+  margin: 0;
+  height: 100%;
+  width: 40%;
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.content-overlay {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  background-color: rgba(255, 192, 203, 0.7);
+  cursor: pointer;
+}
