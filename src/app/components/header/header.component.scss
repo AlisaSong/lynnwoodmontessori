@@ -21,7 +21,7 @@ fa-icon {
 
 .links {
   display: none;
-  text-align: right;
+  float: right;
 
   @media screen and (min-width: 992px) {
     display: block;
@@ -29,6 +29,11 @@ fa-icon {
     padding-top: 50px;
     padding-right: 20px;
   }
+}
+
+.logo {
+  height: 100%;
+  float: left;
 }
 
 .menu-hamburger {
