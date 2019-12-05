@@ -7,7 +7,7 @@ fa-icon {
   float: right;
   padding-right: 20px;
   padding-top: 35px;
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 1050px) {
       display: none;
     }
 }
@@ -19,11 +19,17 @@ fa-icon {
   top: 0px;
 }
 
+.hamburger-links {
+  a {
+    color: #ccc;
+  }
+}
+
 .links {
   display: none;
   float: right;
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1050px) {
     display: block;
     top: 50%;
     padding-top: 50px;
@@ -39,7 +45,7 @@ fa-icon {
 .menu-hamburger {
   margin: auto 10px;
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1050px) {
     display: none;
   }
 }
@@ -52,7 +58,7 @@ fa-icon {
   width: 40%;
   position: fixed; /* Stay in place */
   z-index: 2; /* Sit on top */
-  background-color: rgba(0, 0, 0, .8);
+  background-color: #363636;
 }
 
 .content-overlay {
@@ -61,6 +67,6 @@ fa-icon {
   width: 100%;
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  background-color: rgba(255, 192, 203, 0.7);
+  // background-color: rgba(255, 192, 203, 0.7);
   cursor: pointer;
 }

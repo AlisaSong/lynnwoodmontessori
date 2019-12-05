@@ -21,6 +21,24 @@
           <h3>Add on afternoon programs:</h3>
           <p>Tutoring packages available for 1 on 1 focused learning sessions. Packages are in additional to monthly tuition, and focus areas to pick from are math, language and art.</p>
         </div>
+
+        <div class="icon-border">
+            <span *ngFor="let number of numbers">
+              <fa-icon class="icon-blue" [icon]="faSquare"></fa-icon>
+              <fa-icon class="icon-yellow" [icon]="faSquare"></fa-icon>
+              <fa-icon class="icon-red" [icon]="faSquare"></fa-icon>
+            </span>
+          </div>
+          <div class='text-container'>
+            <h1>Teaching Training</h1>
+            <p>We regularly hold Montessori teacher training programs (what kind). Montessori certification. If you're interested, please email us!</p>
+            <h2>Upcoming Events</h2>
+            <h3>event title</h3>
+            <p>Event information.</p>
+            <p>Event dates.</p>
+            <p>Pricing.</p>
+            <p>Contact Dr. Jun at 333-3333 OR ddd.@gmail.com if you are interested in participating.</p>
+          </div>
       </div>
     </div>
   <app-footer></app-footer>
