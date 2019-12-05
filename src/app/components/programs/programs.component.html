@@ -1,4 +1,26 @@
 <div class='main-container'>
-  <p>programs works!</p>
-</div>
-<app-footer></app-footer>
+    <div class='content-container'>
+      <div class='text-container'>
+        <h1>Programs</h1>
+        <p>We offer a wide array of programs from morning and afternoon daycare to Montessori teacher training.</p>
+      </div>
+        <div class="icon-border">
+          <span *ngFor="let number of numbers">
+            <fa-icon class="icon-blue" [icon]="faSquare"></fa-icon>
+            <fa-icon class="icon-yellow" [icon]="faSquare"></fa-icon>
+            <fa-icon class="icon-red" [icon]="faSquare"></fa-icon>
+          </span>
+        </div>
+        <div class='text-container'>
+          <h1>Daycare: Ages 2.5-6 yrs</h1>
+          <p>Our daycare programs consist of morning and/or afternoon care.</p>
+          <h2>Morning Daycare</h2>
+          <p>From 9 am to 12 pm every weekday.</p>
+          <h2>Evening Daycare</h2>
+          <p>From 3 pm to 5pm every week day.</p>
+          <h3>Add on afternoon programs:</h3>
+          <p>Tutoring packages available for 1 on 1 focused learning sessions. Packages are in additional to monthly tuition, and focus areas to pick from are math, language and art.</p>
+        </div>
+      </div>
+    </div>
+  <app-footer></app-footer>
