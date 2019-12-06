@@ -2,7 +2,7 @@
   <fa-icon class="fa-2x" (click)="onClickMenu()" [icon]="faBars"></fa-icon>
   <div class='menu-hamburger-expanded' *ngIf="menuOpen">
     <fa-icon (click)="onClickCloseMenu()" [icon]="faWindowClose"></fa-icon>
-    <h2>Navigation</h2>
+    <h2 class="hamburger-title">Navigation</h2>
     <div class="hamburger-links">
       <ul>
         <a [routerLink]="['/']"><li>About</li></a>

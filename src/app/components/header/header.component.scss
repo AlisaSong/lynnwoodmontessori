@@ -1,5 +1,5 @@
 a {
-  font-size: 38px;
+  font-size: 28px;
   padding: 0 10px;
 }
 
@@ -20,10 +20,16 @@ fa-icon {
 }
 
 .hamburger-links {
+  font-family: 'Mali', cursive;
   a {
     color: #ccc;
   }
 }
+
+.hamburger-title {
+  margin-left: 10px;
+}
+
 
 .links {
   display: none;
