@@ -5,24 +5,25 @@
   //font-family: Helvetica;
 }
 
-html, body {
-  font-family: 'Libre Franklin', serif;
-  // height: 100%;
-}
-
 a {
   color: black;
   text-decoration: none;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: normal;
+  font-family: 'Mali', cursive;
 
   @media screen and (min-width: 450px) {
-    font-size: 38px;
+    font-size: 28px;
     // padding-top: 15px;
   }
+}
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  // height: 100%;
 }
 
 ul {
@@ -32,7 +33,6 @@ ul {
 li {
   list-style-type: none;
   margin-bottom: 5px;
-  font-size: 14px;
 }
 
 p, span {
