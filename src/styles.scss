@@ -16,22 +16,67 @@ a {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: normal;
 
   @media screen and (min-width: 450px) {
     font-size: 38px;
-    padding-top: 15px;
+    // padding-top: 15px;
   }
+}
+
+ul {
+  margin: 5px 0 0 0;
 }
 
 li {
   list-style-type: none;
+  margin-bottom: 5px;
+  font-size: 14px;
 }
 
-p {
+p, span {
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.border-icon {
+    margin: 10px;
+    white-space: normal;
+}
+
+.content-container {
+  background-color: #fff;
+  margin-bottom: 0;
+  padding-top: 0;
+  
+  @media screen and (min-width: 450px) {
+    padding-top: 15px;
+  }
+}
+
+.icon-border {
+  white-space: nowrap;
+  overflow: hidden;
+  height: 15px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.icon-bullet {
+  margin-right: 10px;
+}
+
+.icon-blue {
+  color: #597AFF;
+}
+
+.icon-red {
+  color: #FF5959;
+}
+
+.icon-yellow {
+  color: #FFDE59;
 }
 
 .main-container {
@@ -40,4 +85,21 @@ p {
  display: block;
  position: relative;
  z-index: -1;
+}
+
+.text-container {
+  width: 80%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 450px) {
+    width: 85%;
+  }
+
+  @media screen and (min-width: 850px) {
+    width: 90%;
+  }
+}
+
+.strong-text {
+  font-weight: bold;
 }

@@ -15,7 +15,6 @@ export class ProgramsComponent implements OnInit {
 
   ngOnInit() {
     this.browserUtil.resetScroll();
-    console.log(window.innerWidth);
   }
 
 }
