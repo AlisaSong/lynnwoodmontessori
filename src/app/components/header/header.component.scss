@@ -61,6 +61,8 @@ fa-icon {
   margin: 0;
   height: 100%;
   width: 40%;
+  min-width: 300px;
+  max-width: 400px;
   position: fixed; /* Stay in place */
   z-index: 5; /* Sit on top */
   background-color: #363636;
