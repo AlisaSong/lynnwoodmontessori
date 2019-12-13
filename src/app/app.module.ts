@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { StaffComponent } from './components/staff/staff.component';
-import { TourComponent } from './components/tour/tour.component';
 import { AdmissionsComponent } from './components/admissions/admissions.component';
 import { ProgramsComponent } from './components/programs/programs.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CurriculumComponent } from './components/curriculum/curriculum.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +18,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HomeComponent,
     HeaderComponent,
     StaffComponent,
-    TourComponent,
     AdmissionsComponent,
     ProgramsComponent,
-    FooterComponent
+    FooterComponent,
+    CurriculumComponent
   ],
   imports: [
     BrowserModule,
