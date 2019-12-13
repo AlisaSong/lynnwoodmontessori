@@ -1,4 +1,63 @@
 <div class='main-container'>
-  <p>staff works!</p>
+  <div class='content-container'>
+    <div class='text-container'>
+      <h1>Our Staff</h1>
+      <p>
+        Sentence about teachers, dedication to children.
+      </p>
+      <div class="staff-bios">
+        <div class="staff-bio">
+          <div class="staff-bio-content">
+            <h3>Dr. Youngsoon Jun</h3>
+            <p>
+              This is the first sentence talking about Dr. Jun's experience, accreditation. Talks about her work in South
+              Korea,
+              and how she is an expert in the Montessori methodology. Maybe mention the number of children she has taught.
+              4-5 sentences is a great amount.
+            </p>
+          </div>
+          <img class="staff-headshot" src="assets/headshotsample1.jpg">
+        </div>
+        <div class="clearfix"></div><br><br>
+
+        <div class="staff-bio">
+          <div class="staff-bio-content">
+            <h3>Another teacher</h3>
+            <p>
+              This is the first sentence talking about Dr. Jun's experience, accreditation. Talks about her work in South
+              Korea,
+              and how she is an expert in the Montessori methodology. Maybe mention the number of children she has taught.
+              4-5 sentences is a great amount.
+            </p>
+          </div>
+          <img class="staff-headshot" src="assets/headshotsample1.jpg">
+        </div>
+        <div class="clearfix"></div>
+
+      </div>
+
+      <div class="icon-border">
+        <span *ngFor="let number of numbers">
+          <fa-icon class="icon-blue border-icon" [icon]="faSquare"></fa-icon>
+          <fa-icon class="icon-yellow border-icon" [icon]="faSquare"></fa-icon>
+          <fa-icon class="icon-red border-icon" [icon]="faSquare"></fa-icon>
+        </span>
+      </div>
+
+      <div>
+        <h2>Join Our Team</h2>
+        <p>
+          Are you someone who loves working with children, encouraging them to grow to be their best selves, and
+          believes in
+          the Montessori method?
+          We have training programs for those who are interested in becoming teachers and for teachers who are
+          interested in diving
+          deeper into the Montessori method.
+          Feel free to introduce yourself to us and shoot us an email! We're always looking for passionate educators to
+          join our growing team.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
-<app-footer></app-footer>
+  <app-footer></app-footer>
