@@ -1,41 +1,52 @@
 a {
-    color: blue;
+  color: blue;
 }
 
-.clearfix{	
-    clear:both	
-}	
+.clearfix {
+  clear: both;
+}
 
-.map {	
-    height: 100%;	
-    width: 100%;	
-    margin-right:2%;	
-    float: left;	
-
-    iframe {	
-        width:100%;	
-    }	
-
+.half-shot {
+    text-align: center;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 85%;
+    
     @media screen and (min-width: 850px) {	
-        width: 50%;	
-        float: left;	
+        width: 45%;	
     }	
+}
 
-    @media screen and (min-width: 850px) {	
-        width: 40%;	
-    }	
-}	
+.map {
+  height: 100%;
+  width: 100%;
+  margin-right: 2%;
+  float: left;
 
-.map-container {	
-    display: inline-block; 	
-    margin: 0 auto;	
-}	
+  iframe {
+    width: 100%;
+  }
 
-.directions {	
-    width: 100%;	
+  @media screen and (min-width: 850px) {
+    width: 50%;
+    float: left;
+  }
 
-    @media screen and (min-width: 850px) {	
-        float: left;	
-        width: 55%;	
-    }	
-} 
+  @media screen and (min-width: 850px) {
+    width: 40%;
+  }
+}
+
+.map-container {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.directions {
+  width: 100%;
+
+  @media screen and (min-width: 850px) {
+    float: left;
+    width: 55%;
+  }
+}
