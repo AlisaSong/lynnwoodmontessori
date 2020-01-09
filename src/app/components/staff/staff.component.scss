@@ -1,22 +1,31 @@
 .staff-headshot {
-float: left;
-width: 30%;
+  width: 45%;
+  @media screen and (min-width: 850px) {
+    float: left;
+    width: 30%;
+  }
 }
 
-.staff-bio{
-width: 100%;
+.staff-bio {
+  width: 100%;
+  text-align: center;
 }
 
 .staff-bio-content {
-    float: right;
+  width: 90%;
+
+  @media screen and (min-width: 850px) {
     margin-right: 7%;
+    float: right;
     width: 60%;
+    text-align: justify;
+  }
 }
 
-.clearfix{	
-    clear:both	
+.clearfix {
+  clear: both;
 }
 
 h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
