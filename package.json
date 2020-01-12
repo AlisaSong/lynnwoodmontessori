@@ -1,10 +1,11 @@
 {
-  "name": "sampleapp",
+  "name": "lynnwood-montessori",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
+    "clientProd": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
