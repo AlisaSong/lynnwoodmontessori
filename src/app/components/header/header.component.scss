@@ -32,6 +32,15 @@ fa-icon {
   text-align: right;
   top: 0px;
 
+  .hamburger-links {
+    text-align: left;
+  }
+
+  .hamburger-title {
+    margin-left: 10px;
+    text-align: left;
+  }
+
   @media screen and (min-width: 360px) {
     height: $header-height;
   }
@@ -42,10 +51,6 @@ fa-icon {
   a {
     color: #ccc;
   }
-}
-
-.hamburger-title {
-  margin-left: 10px;
 }
 
 .links {
