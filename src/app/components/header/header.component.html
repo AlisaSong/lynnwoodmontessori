@@ -19,7 +19,9 @@
   (click)="onClickCloseMenu()"
   *ngIf="menuOpen"></div>
 
-  <a [routerLink]="['/']"><img class='logo' src="assets/logo-trimmed.png"></a>
+  <a class="home-route" [routerLink]="['/']">
+    <img class='logo' src="assets/logo-trimmed.png">
+  </a>
 
   <div class="links">
     <span>

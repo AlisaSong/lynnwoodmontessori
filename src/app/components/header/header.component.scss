@@ -1,26 +1,44 @@
+$header-height-small: 60px;
+$header-height: 100px;
+
+.home-route {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   font-size: 28px;
   padding: 0 10px;
 }
 
 fa-icon {
-  float: right;
-  padding-right: 20px;
+  float: none;
   padding-top: 35px;
-    @media screen and (min-width: 1050px) {
-      display: none;
-    }
+
+  @media screen and (min-width: 360px) {
+    float: right;
+    padding-right: 20px;
+  }
+
+  @media screen and (min-width: 1050px) {
+    display: none;
+  }
 }
 
 .background-container {
   background-color: rgb(255, 249, 230);
-  height: 100px;
+  height: $header-height-small;
   position: sticky;
+  text-align: right;
   top: 0px;
+
+  @media screen and (min-width: 360px) {
+    height: $header-height;
+  }
 }
 
 .hamburger-links {
-  font-family: 'Mali', cursive;
+  font-family: "Mali", cursive;
   a {
     color: #ccc;
   }
@@ -43,8 +61,12 @@ fa-icon {
 }
 
 .logo {
-  height: 100%;
+  max-height: $header-height-small;
   float: left;
+
+  @media screen and (min-width: 360px) {
+    max-height: $header-height;
+  }
 }
 
 .menu-hamburger {
